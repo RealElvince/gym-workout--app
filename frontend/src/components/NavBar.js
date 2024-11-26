@@ -9,7 +9,14 @@ function NavBar() {
           <Link to="/">
             <h1>Workout Buddy 🏋</h1>
           </Link>
+          <nav>
+            <div>
+              <Link to="/login">Login</Link>
+              <Link to ="/signup">Sign Up</Link>
+            </div>
+          </nav>
         </div>
+       
       </header>
     </>
   )

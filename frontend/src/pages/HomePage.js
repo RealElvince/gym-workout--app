@@ -3,6 +3,8 @@ import React ,{useEffect} from 'react'
 import WorkoutDetails from '../components/WorkoutDetails'
 import WorkoutForm from '../components/WorkoutForm'
 import {useWorkoutContext} from '../hooks/useWorkoutContext'
+
+
 function HomePage() {
 
   // const [workouts,setWorkouts] =useState('')
